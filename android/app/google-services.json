@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "317453791617",
-    "project_id": "inclass13authentication",
-    "storage_bucket": "inclass13authentication.firebasestorage.app"
+    "project_number": "967489469969",
+    "project_id": "inclass13-888c3",
+    "storage_bucket": "inclass13-888c3.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:317453791617:android:5638c722eac020cafe7880",
+        "mobilesdk_app_id": "1:967489469969:android:47dfdac4fbebf19c9f7bb0",
         "android_client_info": {
           "package_name": "com.example.inclass_activity_13_authentication"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCuL5J9rrtNbnWEJOMZ8ufksL0_lcSn-2U"
+          "current_key": "AIzaSyCIRHdG2DLGlLEJNq56P7zHcCVx0WIRZq8"
         }
       ],
       "services": {

@@ -32,26 +32,17 @@ class _AuthenticationScreenState extends State<AuthenticationScreen> {
           _passwordController.text.trim(),
         );
       }
+      print("SUCCESS LOGIN");
+      if (!mounted) return;
 
       Navigator.pushReplacement(context, 
         MaterialPageRoute(builder: (_) => const ProfileScreen()),
       );
 
     } catch (e) {
+      print("ERROR: $e"); // 🔥 ADD THIS
       setState(() {
-        if (e.toString().contains('email-already-in-use')) {
-          errorMessage = 'Email already exists';
-        } else if (e.toString().contains('invalid-email')) {
-          errorMessage = 'Invalid email format';
-        } else if (e.toString().contains('weak-password')) {
-          errorMessage = 'Password too weak';
-        } else if (e.toString().contains('user-not-found')) {
-          errorMessage = 'No user found';
-        } else if (e.toString().contains('wrong-password')) {
-          errorMessage = 'Incorrect password';
-        } else {
-          errorMessage = 'Something went wrong';
-        }
+        errorMessage = e.toString();
       });
     }
   }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "317453791617",
+    "project_id": "inclass13authentication",
+    "storage_bucket": "inclass13authentication.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317453791617:android:5638c722eac020cafe7880",
+        "android_client_info": {
+          "package_name": "com.example.inclass_activity_13_authentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuL5J9rrtNbnWEJOMZ8ufksL0_lcSn-2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
